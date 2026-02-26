@@ -33,11 +33,6 @@ Your implementation must use this flag to decide the comparison logic inside you
 - Return a **new sorted list**, note that this is different from the MergeSort we studied in class. 
 
 - **Do NOT use Python built-in sorting (sorted() or .sort()).**
-- **Expected Complexity**
-
-- Time Complexity: **$O(n\log n$)**
-- Space Complexity: **$O(n)$**
-
 
 3. For the **QuickSort** function: 
 
@@ -53,7 +48,6 @@ def partition(arr, low, high, ascend=True):
 - Select a pivot (randomly, use `random` library)
 - Partition elements around pivot
 - Recursively sort subarrays
-- **Expected Complexity**: Best/Average: $**O(n \log n)$**, and Worst: $**O(n²)**$
 
 4. The **QuickSelect** to find the k-th smallest element.
 
@@ -95,5 +89,3 @@ should return
  
 
  
-
-   
