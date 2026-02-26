@@ -17,24 +17,7 @@ def QuickSelect(arr, k):
 
 
 
-def linear_search(arr, target):
-    """
-    Return the index of target in arr if found, otherwise return -1.
-    """
 
-
-def binary_search(arr, target):
-    """
-    arr is sorted.
-    Return the index of target in arr if found, otherwise return -1.
-    """
-
-
-def sort_then_index(arr, k, ascend=True):
-    """
-    Return the k-th smallest element (0-based) by sorting the whole array first.
-    You may call your MergeSort or QuickSort from Part I (do NOT use Python sorted()).
-    """
 
 
 def main():
