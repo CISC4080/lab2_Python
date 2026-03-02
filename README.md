@@ -74,7 +74,7 @@ should return
 
 ## **Submission**
 
-- Submit your file as **lab2.py** on **Autograder** (link here)
+- Submit your file as **lab2.py** on **Autograder** [link here](https://storm.cis.fordham.edu:8443/web/project/2659).
 
 - **Due Date:**  March 8, Sunday 
 
