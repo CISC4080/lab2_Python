@@ -9,7 +9,7 @@ and **QuickSelect**.
 
 By the end of this lab, you should be able to:
 1. Implement recursive divide-and-conquer algorithms.
-2. Understand the partitioning strategy used in QuickSort and QuickSelect.
+2. Understand the partition process used in QuickSort and QuickSelect.
 3. Distinguish between sorting and selection problems.
 
 ## Detailed Requirements**
@@ -30,8 +30,6 @@ Your implementation must use this flag to decide the comparison logic inside you
 - Divide the list into two halves
 - Recursively sort both halves
 - Merge them into a sorted list
-- Return a **new sorted list**, note that this is different from the MergeSort we studied in class. 
-
 - **Do NOT use Python built-in sorting (sorted() or .sort()).**
 
 3. For the **QuickSort** function: 
@@ -45,7 +43,7 @@ Please:
 ```python
 def partition(arr, low, high, ascend=True):
 ```
-- Select a pivot (randomly, use `random` library)
+- Select a pivot randomly, use `random` library
 - Partition elements around pivot
 - Recursively sort subarrays
 
@@ -72,14 +70,13 @@ should return
 
 - Must call the partition()
 - Must NOT fully sort the array.
-- Only recurse into the side that may contain the k-th element.
 
 
 ## **Submission**
 
 - Submit your file as **lab2.py** on **Autograder** (link here)
 
-- **Due Date:** (TBD)
+- **Due Date:**  March 8, Sunday 
 
 - **IMPORTANT!**
 
